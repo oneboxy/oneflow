@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: oneflow-api
+    runtime: docker
+    rootDir: OneFlow-api
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: ONEFLOW_API_PORT
+        value: 10000

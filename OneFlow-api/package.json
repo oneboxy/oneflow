@@ -1,0 +1,10 @@
+{
+  "name": "oneflow-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "OneFlow project, repository, test plan and coverage task API",
+  "scripts": {
+    "check": "node --check server.js",
+    "test": "node --test"
+  }
+}

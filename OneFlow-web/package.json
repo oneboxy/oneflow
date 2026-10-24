@@ -1,0 +1,12 @@
+{
+  "name": "oneflow-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check mindmap.js"
+  },
+  "dependencies": {
+    "@logicflow/core": "2.2.5",
+    "@logicflow/extension": "2.3.1"
+  }
+}
