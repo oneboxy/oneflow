@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'index.html'
       - 'OneFlow-web/**'
       - '.github/workflows/deploy-oneflow.yml'
   workflow_dispatch:
